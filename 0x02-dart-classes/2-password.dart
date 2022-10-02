@@ -11,8 +11,8 @@ class Password {
              && !this.password.contains(RegExp(r'[a-z]'))
              && !this.password.contains(RegExp(r'[A-Z]'))
              && !this.password.contains(RegExp(r'[0-9'))
-             ) { return false; }
-        return true;
+             ) { return true; }
+        return false;
     }
 
     @override
